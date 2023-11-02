@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.searchMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nothingFound{
+  margin: 15px;
+  font-size: 30px;
+
+}
+
+
+.inBox {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  background-color: white;
+  flex: 50%;
+  max-width: 1100px;
+  height: 617px;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.infoBoxHeader {
+  display: flex;
+  width: 100%;
+  height: 55px;
+  align-items: center;
+  background-color: #b06ec7;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.InfoImageBox {
+  display: flex;
+  width: 500px;
+  margin: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.infoColumnBox {
+  display: flex;
+  flex: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.searchTitle{
+  margin: 15px;
+  font-size: 27px;
+}
+
+.infoRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  flex-wrap: wrap;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1100px;
+  width: 100%;
+}
+
+
+.infoRowHide{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.mobileRow{
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  flex-wrap: wrap;
+}
+
+.smallBoxCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.headerLine{
+  display: none;
+  width: 200px;
+  height: 9px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.smallBoxEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.verticalLine {
+  display: flex;
+  width: 2px;
+  height: 158px;
+  background-color: black;
+}
+
+.longVerticalLine {
+  display: flex;
+  width: 2px;
+  height: 460px;
+  margin-top: 35px;
+  background-color: black;
+}
+
+.longHorizontalLine {
+  display: flex;
+  width: 500px;
+  height: 2px;
+  margin-top: 35px;
+  background-color: black;
+}
+
+.mobileHorizontalLine{
+  display: none;
+  width: 60%;
+  height: 2px;
+  margin: none;
+  background-color: black;
+}
+
+.grey {
+  font-size: 20px;
+  color: #847b7b;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.descriptionBoxInfo {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  height: 35%;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.backBtnInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.3s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.backBtnInfo:hover {
+  background-color: #0056b3;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.search-input {
+
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex-grow: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50; /* Green color, you can change it */
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button:hover {
+  background-color: #45a049; /* Darker shade of green on hover */
+}
+
+
+@media screen and (max-width: 500px) {
+  .inBox {
+    width: 300px;
+    top: 0;
+    left: 0;
+    height: auto;
+    max-height: none;
+    margin: 10px;
+  }
+
+  .search-container{
+    width: auto;
+  }
+
+  .mobileRow{
+    display: flex;
+  }
+
+
+  .infoRowHide{
+    display: none;
+  }
+
+  .longVerticalLine{
+    display: none;
+  }
+
+  .mobileHorizontalLine{
+    display: flex;
+
+  }
+
+  .headerLine{
+    display: flex;
+  }
+
+  .price{
+    font-size: 20px;
+  }
+
+  .name{
+    font-size: 20px;
+  }
+
+  .age{
+    font-size: 20px;
+  }
+
+  .release{
+    font-size: 20px;
+  }
+
+  .infoBoxHeader {
+    width: 100%; /* Make it full width */
+  }
+
+  .InfoImageBox {
+    width: 80%; /* Make it full width */
+  }
+
+  .infoImageBox img{
+    height: 100px;
+  }
+
+  .infoColumnBox,
+  .smallBoxCenter,
+  .smallBoxEnd {
+    flex: 40%; /* Make it full width */
+    margin: 0; /* Remove margin */
+    padding: 10px; /* Adjust padding */
+  }
+
+  /*.longVerticalLine,*/
+  .longHorizontalLine {
+    width: 120%;
+    height: 2.5px;
+  }
+
+  .verticalLine {
+    height: 100px;
+    margin: 2px;
+  }
+
+  .descriptionBoxInfo {
+    height: auto; /* Allow content to determine height */
+  }
+
+  .backBtnInfo {
+    width: 100%; /* Make it full width */
+    margin: 5px 0; /* Adjust margin */
+  }
+}

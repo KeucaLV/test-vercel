@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mainProfile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.welcome {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.userLine {
+  display: flex;
+  width: 90%;
+  background-color: black;
+  margin: 30px;
+  height: 3px;
+  border-radius: none;
+}
+
+.userBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex: 50%;
+  margin: 10px;
+}
+
+.managamentBox {
+  display: flex;
+  flex: 15%;
+  margin: 20px;
+  min-height: 250px;
+  justify-content: center;
+}
+
+.forgotBox {
+  display: flex;
+  flex: 100%;
+  max-width: 515px;
+  height: 185px;
+  font-size: 14px;
+  padding: 5px;
+  margin: 20px;
+  background-color: #af6ec72f;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
+}
+
+.userText {
+  color: white;
+  margin: 10px;
+}
+
+.yourGames {
+  font-size: 35px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.flex-row-games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #3a89d3;
+}
+
+.a {
+  color: #3a89d3;
+}

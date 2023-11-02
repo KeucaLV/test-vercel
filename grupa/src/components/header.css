@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  background-color: #b06ec7;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-space {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
+
+.headBox {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBox {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s; /* Adding transition for color change */
+}
+
+.text:hover {
+  text-decoration: underline; /* Change this to the color you want on hover */
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+  font-size: 27px;
+  margin: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.3s; /* Adding transition for color change */
+}
+
+.text:hover {
+  text-decoration: underline; /* Change this to the color you want on hover */
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+  font-size: 27px;
+}
+
+.profileBtn {
+  display: flex;
+  width: 125px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  background-color: #56bde9;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.profileBtn:hover {
+  background-color: #4ca4da; /* Change this to the color you want on hover */
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 4px;
+  text-decoration: underline;
+}
+
+.nav-Btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-lines {
+  display: flex;
+  background-color: black;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.backBtn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  offset: none;
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  color: white;
+}
+
+.mobileNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #f1caff;
+}
+
+.fortnite {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #f1caff;
+}
+
+.mobileText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  font-size: 23px;
+  border-bottom: 2px solid;
+  font-weight: 500;
+  color: black;
+}
+
+.mobileText:hover {
+  text-decoration: underline;
+}
+
+.mobileProfileBtn {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  background-color: #56bde9;
+  font-weight: 400;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.mobileProfileBtn:hover {
+  background-color: #4ca4da; /* Change this to the color you want on hover */
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 4px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-Btn {
+    display: flex;
+  }
+
+  .header {
+    justify-content: flex-start;
+  }
+
+  .flex-row-space{
+    padding: 10px;
+  }
+
+  .text {
+    display: none;
+  }
+  .profileBtn {
+    display: none;
+  }
+}

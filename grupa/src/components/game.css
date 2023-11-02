@@ -1,0 +1,130 @@
+.recomend-title {
+  padding: 20px;
+  align-self: flex-start;
+}
+
+.flex-row-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 20%;
+  max-width: 319px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 4px;
+}
+
+.box:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+  transition: 3ms;
+  cursor: pointer;
+}
+
+.imageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 319px;
+  height: 235px;
+  background-color: #d9d9d9;
+}
+
+.boxHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b06ec7;
+  width: 319px;
+  height: 47px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.line {
+  display: flex;
+  width: 200px;
+  height: 9px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gameImage {
+  width: 300px;
+}
+
+.gameName {
+  margin: 15px;
+  font-size: 32px;
+}
+
+.fallGuys {
+  width: 370px;
+}
+
+.gta {
+  width: 139px;
+}
+
+.fortnite {
+  width: 283px;
+}
+
+.minecraft {
+  width: 284px;
+}
+
+.description {
+  background-color: #f9f9f9;
+  padding: 10px;
+  width: 298px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .recomend-title {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 300px;
+    margin: 10px;
+  }
+  .imageBox {
+    width: 300px;
+  }
+  .boxHeader {
+    width: 300px;
+  }
+
+  .description {
+    width: 280px;
+  }
+}
